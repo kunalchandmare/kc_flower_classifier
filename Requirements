@@ -1,0 +1,7 @@
+numpy==2.3.0
+pandas==2.2.3
+matplotlib
+seaborn
+scipy
+torch
+torchvision
