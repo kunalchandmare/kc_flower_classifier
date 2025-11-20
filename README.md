@@ -2,7 +2,8 @@
 Developing an AI application  that will Train to classify Flower types with up to 102 classes of species. Using pretrained Model VGG  and extend it with your own classifier. user will have possibility to choose different vgg model in application
 
 # Dataset
-The model can be trained on any dataset user want but need to be relevant for Flower classification otherwise results wont be as desired. Please use recommeneded dataset provided in following link: https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz 
+The model can be trained on any dataset user want but need to be relevant for Flower classification otherwise results wont be as desired. Please use recommeneded dataset provided in following link: https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz OR
+http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
 
 # Instruction
 Project has 2 files predict.py and train.py, as name suggestion one is for training model and other one is to predict as inference on trained model. Following are instruction how to use command line argument for each
