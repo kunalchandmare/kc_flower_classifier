@@ -10,6 +10,7 @@ Project has 2 files predict.py and train.py, as name suggestion one is for train
 
 ## Training
 One must execute training before trying to predict something as model does not exist any more
+```bash
 usage: Train on Images [-h] [--arch ARCH] [--learning_rate LEARNING_RATE]
                        [--hidden_units [HIDDEN_UNITS ...]] [--epochs EPOCHS]
                        [--gpu]
@@ -32,10 +33,10 @@ options:
                         [4096,1000]
   --epochs EPOCHS       Number of epochs default 5
   --gpu                 Use GPU for training
-
+```
 ## Predict
 following argument description to predict for given input image. If user wants to see Bar graph of requested top probabilities then path to the cat_to_name.json is necessary otherwise tool just shows logs with 5 highest probability
-
+```bash
 usage: Predict Image [-h] [--top_k TOP_K] [--category_names CATEGORY_NAMES]
                      [--gpu]
                      image_path checkpoint
@@ -54,3 +55,4 @@ options:
   --category_names CATEGORY_NAMES
                         JSON file for category names
   --gpu                 Use GPU for inference
+```
